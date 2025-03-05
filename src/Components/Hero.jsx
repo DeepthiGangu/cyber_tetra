@@ -28,7 +28,7 @@ const Home = () => {
       {/* Hero Section */}
       <motion.section 
         className="flex flex-col items-center justify-center h-screen text-center text-white px-6 bg-cover bg-center mt-0"
-        style={{ backgroundImage: "url('/src/assets/Hero-background.png')" }}
+        style={{ backgroundImage: "url('/Hero-background.png')" }}
         initial={{ scale: 1.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 3, ease: "easeInOut" }}
@@ -60,9 +60,9 @@ const Home = () => {
 
 
         {[
-          { img: "/src/assets/threat.png", title: "Enhanced Threat Detection", desc: "Identify and neutralize potential cyber threats in real-time with cutting-edge web monitoring tools." },
-          { img: "/src/assets/security.png", title: "Streamlined Security Management", desc: "Automate routine security tasks and optimize protection with tools designed for seamless security operations." },
-          { img: "/src/assets/risk.png", title: "Comprehensive Risk Analysis", desc: "Leverage in-depth analytics to uncover vulnerabilities and develop robust strategies to fortify your online presence." }
+          { img: "/threat.png", title: "Enhanced Threat Detection", desc: "Identify and neutralize potential cyber threats in real-time with cutting-edge web monitoring tools." },
+          { img: "/security.png", title: "Streamlined Security Management", desc: "Automate routine security tasks and optimize protection with tools designed for seamless security operations." },
+          { img: "/risk.png", title: "Comprehensive Risk Analysis", desc: "Leverage in-depth analytics to uncover vulnerabilities and develop robust strategies to fortify your online presence." }
         ].map((feature, index) => (
           <motion.div 
             key={index} 
@@ -97,7 +97,7 @@ const Home = () => {
     className="flex flex-col md:flex-row items-center md:items-start gap-8"
   >
     <motion.img
-      src="/src/assets/mission.png"
+      src="/mission.png"
       alt="Our Mission"
       className="w-36 h-36 rounded-md"
       whileHover={{ scale: 1.1 }}
@@ -134,7 +134,7 @@ const Home = () => {
     className="flex flex-col md:flex-row-reverse items-center md:items-start gap-8"
   >
     <motion.img
-      src="/src/assets/vision.png"
+      src="/vision.png"
       alt="Our Vision"
       className="w-36 h-36 rounded-md"
       whileHover={{ scale: 1.1 }}
@@ -173,7 +173,7 @@ const Home = () => {
     whileHover={{ y: -5, boxShadow: "0px 10px 20px rgba(0,0,0,0.2)" }} // Hover Effect
   >
     <img
-      src="/src/assets/why-choose-us.png"
+      src="/why-choose-us.png"
       alt="Why Choose Us"
       className="w-full max-h-[600px] object-cover rounded-lg shadow-lg"
     />
@@ -182,7 +182,7 @@ const Home = () => {
         <p className="text-base font-medium mb-4" style={{ wordBreak: "break-word" }}>
           Cyber Tetra is committed to empowering organizations to embrace the digital landscape confidently, knowing their critical data and operations are secure. Let us help you unlock the full potential of your online presence!
         </p>
-        <img src="/src/assets/logo.png" alt="Company Logo" className="w-24 h-auto" />
+        <img src="/logo.png" alt="Company Logo" className="w-24 h-auto" />
       </div>
     </div>
   </motion.div>
@@ -263,17 +263,17 @@ const Home = () => {
   >
     {[
       {
-        img: "/src/assets/sec_icon.png",
+        img: "/sec_icon.png",
         title: "Security-First Approach",
         text: "We prioritize security in everything we do, embedding robust protective measures into every layer of our web security solutions.",
       },
       {
-        img: "/src/assets/innovation.png",
+        img: "/innovation.png",
         title: "Innovation and Adaptability",
         text: "We embrace innovation and continuously evolve our technologies to stay ahead of emerging cyber threats and industry trends.",
       },
       {
-        img: "/src/assets/client.png",
+        img: "/client.png",
         title: "Client-Centric Focus",
         text: "We are committed to understanding our clients' unique challenges and delivering tailored security solutions that meet their specific needs.",
       },

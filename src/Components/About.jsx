@@ -1,24 +1,24 @@
 import React from "react";
-import bgImage from "../assets/bg.png"; // Import background image
+ // Import background image
 
 const teamMembers = [
   {
     name: "Kucharlapati Prasanna",
     role: "CEO",
     specialty: "VAPT Specialist",
-    image: "/src/assets/prasanna.jpg", // Replace with actual image path
+    image: "/prasanna.jpg", // Replace with actual image path
   },
   {
     name: "Raviteja Chanamalla",
     role: "COO",
     specialty: "VAPT Specialist",
-    image: "/src/assets/raviteja.jpg", // Replace with actual image path
+    image: "/raviteja.jpg", // Replace with actual image path
   },
   {
     name: "Jayanth Changala",
     role: "CTO",
     specialty: "VAPT Specialist",
-    image: "/src/assets/jayanth.jpg", // Replace with actual image path
+    image: "/jayanth.jpg", // Replace with actual image path
   },
 ];
 

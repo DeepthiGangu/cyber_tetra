@@ -6,7 +6,7 @@ const Contact = () => {
       {/* Hero Section */}
       <div
         className="relative bg-cover bg-center text-white py-20"
-        style={{ backgroundImage: "url('/src/assets/bg.png')" }} // Ensure correct image path
+        style={{ backgroundImage: "url('/bg.png')" }} // Ensure correct image path
       >
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="container mx-auto px-6 grid md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div>
-            <img src="/src/assets/logo.png" alt="Cyber Tetra" className="w-32 mb-4" />
+            <img src="/logo.png" alt="Cyber Tetra" className="w-32 mb-4" />
             <p className="text-gray-300">
               Revolutionizing Business Through Innovative Security Solutions
             </p>

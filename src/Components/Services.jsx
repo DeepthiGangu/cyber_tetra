@@ -6,19 +6,19 @@ const services = [
     title: "Web App Penetration Testing",
     description:
       "A detailed assessment of your web applications to uncover security flaws like injection attacks, authentication vulnerabilities, and misconfigurations. We provide actionable insights to safeguard your applications.",
-    image: "/src/assets/penetrate1.png",
+    image: "/penetrate1.png",
   },
   {
     title: "API Penetration Testing",
     description:
       "Comprehensive analysis of APIs to uncover potential security flaws, including improper authentication, insecure data handling, and unauthorized access risks. Ensure your APIs are robust and secure against exploitation.",
-    image: "/src/assets/penetrate2.png",
+    image: "/penetrate2.png",
   },
   {
     title: "Android Penetration Testing",
     description:
       "An in-depth analysis of your Application to uncover vulnerabilities, including unauthorized access points, misconfigured security settings, and outdated protocols. Strengthen your defenses with our comprehensive testing.",
-    image: "/src/assets/penetrate3.png",
+    image: "/penetrate3.png",
   },
 ];
 
