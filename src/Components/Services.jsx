@@ -24,14 +24,14 @@ const services = [
 
 const Services = () => (
   <section id="services" className="py-16 bg-gray-100">
-    <div className="container mx-auto px-4 md:px-8 lg:px-16">
+    <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-[88rem]">
       {/* Animated Heading */}
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-4xl font-bold text-center mb-8 text-black"
+        className="text-[2.5rem] font-bold text-center mb-12 text-black mt-12"
       >
         Services We Offer
       </motion.h2>
@@ -42,7 +42,7 @@ const Services = () => (
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
-        className="max-w-3xl mx-auto text-lg mb-12 text-black text-center"
+        className="max-w-3xl mx-auto text-xl mb-12 text-black text-center -mt-8"
       >
         Comprehensive security tailored to your needs. Protect, detect, and
         thrive with our expert solutions.
@@ -63,7 +63,7 @@ const Services = () => (
             <motion.div
               whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.2)" }}
               transition={{ duration: 0.3 }}
-              className="bg-white rounded-lg shadow-lg overflow-hidden"
+              className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[500px]"
             >
               {/* Image Zoom on Hover */}
               <motion.img
@@ -74,11 +74,11 @@ const Services = () => (
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.3 }}
               />
-              <div className="p-6">
+              <div className="p-6 text-left">
                 <h3 className="text-2xl font-bold mb-2 text-black">
                   {service.title}
                 </h3>
-                <p className="text-gray-700 text-black">
+                <p className="text-gray-900 leading-relaxed">
                   {service.description}
                 </p>
               </div>

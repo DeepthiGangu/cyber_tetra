@@ -30,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0;
 }
 
 h1 {
@@ -67,4 +68,21 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure root container takes full width */
+#root {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
 }
